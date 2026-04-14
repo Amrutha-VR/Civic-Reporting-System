@@ -1,8 +1,8 @@
-# 🏙️ CivicAlert — Crowdsourced Civic Issue Reporting & Resolution System
+# CivicAlert — Crowdsourced Civic Issue Reporting & Resolution System
 
 A full-stack platform for citizens to report and track civic/environmental issues in their community.
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 civic-alert/
