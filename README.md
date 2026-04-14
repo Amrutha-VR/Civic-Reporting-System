@@ -98,7 +98,7 @@ npm run dev    # Runs on http://localhost:3000
 
 Frontend proxies `/api/*` and `/uploads/*` to the Flask backend via `vite.config.js`.
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Auth
 | Method | Endpoint            | Description          |
@@ -118,12 +118,12 @@ Frontend proxies `/api/*` and `/uploads/*` to the Flask backend via `vite.config
 | PATCH  | /api/issues/:id/status          | Yes  | Update status            |
 | GET    | /api/issues/stats/summary       | No   | Counts by status         |
 
-## ✨ Features
+##  Features
 
 - **User Authentication** — Register, login, JWT-protected routes
 - **Issue Reporting** — Title, category, description, address
-- **📍 Geotagging** — Auto-detect GPS via browser API, stored as GeoJSON `2dsphere`
-- **📷 Photo Uploads** — Multipart form upload, served as static files
+- **Geotagging** — Auto-detect GPS via browser API, stored as GeoJSON `2dsphere`
+- **Photo Uploads** — Multipart form upload, served as static files
 - **Voting System** — Toggle upvotes per user (no duplicates)
 - **Comments** — Threaded comments on any issue
 - **Status Tracking** — Open → In Progress → Resolved (reporter/admin only)
@@ -131,7 +131,7 @@ Frontend proxies `/api/*` and `/uploads/*` to the Flask backend via `vite.config
 - **Dashboard** — User profile with their reported issues + stats
 - **Pagination** — Backend paginated results
 
-## 🔐 Environment Variables
+##  Environment Variables
 
 ```env
 MONGO_URI=mongodb://localhost:27017/civic_alert
