@@ -1,4 +1,4 @@
-# CivicAlert — Crowdsourced Civic Issue Reporting & Resolution System
+# CivicAlert - Crowdsourced Civic Issue Reporting & Resolution System
 
 A full-stack platform for citizens to report and track civic/environmental issues in their community.
 
@@ -47,7 +47,7 @@ civic-alert/
             └── Dashboard.jsx       # User profile + my issues
 ```
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 | Layer     | Technology                    |
 |-----------|-------------------------------|
@@ -59,7 +59,7 @@ civic-alert/
 | Database  | MongoDB + PyMongo             |
 | Uploads   | Werkzeug multipart/form-data  |
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.10+
